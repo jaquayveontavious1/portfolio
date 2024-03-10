@@ -1,6 +1,109 @@
 /*Universal Selectors*/
 
+
   body {
     background-color: #333;
     color: white;
   }
+  h4 {
+    text-align: baseline;
+  }
+/*Class Selectors*/
+  .primary {
+    border: solid;
+    border-color:white;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+  }
+  .secondary {
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+  }
+  .college {
+    border: solid;
+    border-radius: 10px;
+    border-color: white;
+    width: 300px;
+    height: 300px;
+    margin-left: 250px;
+  }
+  .container {
+    display: flex;
+  }
+  .hard {
+    border: solid;
+    border-radius: 10px;
+    border-color: aqua;
+    width: 250px;
+    height: 250px;
+    margin-top:40px ;
+
+  }
+  .soft {
+    border: solid;
+    border-radius: 10px;
+    border-color: aqua;
+    width: 250px;
+    height: 250px;
+    margin-top: 40px;
+  }
+  .skills {
+    display: flex;
+    background-color: aqua;
+    border-radius: 10px;
+    width: 1100px;
+    height: 300px;
+    text-align: center;
+    color: black;
+    padding-left: 100px;
+  }
+  
+  
+  .btn-1 {
+    background-color:white;
+    margin-top: 50px;
+    
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    border-color: black;
+    color: black;
+
+    }
+  
+  .btn-1:hover {
+    background-color: #3323;
+    color:white;
+    cursor: pointer;
+    transition: 0.5ms;
+  }
+  /*Id Selectors*/
+  #heading {
+    text-align: center;
+    margin-left: 100px;
+  }
+  #btn-2 {
+    background-color: white;
+    margin-top: 50px;
+    color:black;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    border-color: black;
+  }
+#btn-2:hover {
+  background-color: #3323;
+  color: white;
+  cursor: pointer;
+  transition: 0.5ms;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
